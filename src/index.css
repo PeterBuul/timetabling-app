@@ -1,3 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom styles for the timetable grid */
+@layer components {
+  .tt-grid {
+    display: grid;
+    /* 10 columns: Day Header + 9 Time Slots */
+    grid-template-columns: 100px repeat(9, 1fr);
+    border-color: #e2e8f0;
+  }
+  .tt-header {
+    @apply font-bold bg-gray-200 p-2 text-center text-sm border;
+  }
+  .tt-day {
+    @apply font-bold bg-gray-100 p-2 text-sm border sticky left-0 z-10;
+  }
+  .tt-cell {
+    @apply p-1 text-xs border bg-white relative;
+    min-height: 40px;
+  }
+  .tt-cell-content {
+    @apply text-center font-semibold;
+  }
+  .tt-cell-apt {
+    @apply tt-cell bg-gray-50 text-gray-400 italic;
+  }
+  .tt-cell-prep {
+    @apply tt-cell bg-blue-50 text-blue-700 italic;
+  }
+  /* Column Spans */
+  .col-span-2 { grid-column: span 2 / span 2; }
+  .col-span-3 { grid-column: span 3 / span 3; }
+  .col-span-4 { grid-column: span 4 / span 4; }
+  .col-span-5 { grid-column: span 5 / span 5; }
+  .col-span-6 { grid-column: span 6 / span 6; }
+  .col-span-7 { grid-column: span 7 / span 7; }
+  .col-span-8 { grid-column: span 8 / span 8; }
+  .col-span-9 { grid-column: span 9 / span 9; }
+  /* Row Spans */
+  .row-span-2 { grid-row: span 2 / span 2; }
+  .row-span-3 { grid-row: span 3 / span 3; }
+  .row-span-6 { grid-row: span 6 / span 6; }
+  .row-span-7 { grid-row: span 7 / span 7; }
+  .row-span-9 { grid-row: span 9 / span 9; }
+}
