@@ -58,8 +58,8 @@ const ConfigView = () => {
 // --- Timetable Output Component (Accurate Mockup from PDF) ---
 const TimetableView = () => (
   <div id="timetable-output" className="bg-white p-4 shadow-lg rounded-lg overflow-x-auto">
-    <h2 className="text-xl font-bold text-center mb-1">SPECIALIST TIMETABLE - Term 4 2025 VERSION 3 </h2>
-    <h3 className="text-sm text-center text-gray-600 mb-4">Modified 31/10/25 </h3>
+    <h2 className="text-xl font-bold text-center mb-1">SPECIALIST TIMETABLE - Term 4 2025 VERSION 3 [cite: 1, 2, 4]</h2>
+    <h3 className="text-sm text-center text-gray-600 mb-4">Modified 31/10/25 [cite: 3]</h3>
     <div className="tt-grid border-t border-l">
       {/* --- Headers --- */}
       <div className="tt-header"></div>
@@ -72,7 +72,7 @@ const TimetableView = () => (
       <div className="tt-header">2:30</div>
       <div className="tt-header">3:10 3:45</div>
       
-      {/* --- MONDAY --- */}
+      {/* --- MONDAY [cite: 4] --- */}
       <div className="tt-day row-span-9">MONDAY</div>
       <div className="tt-cell"><div className="tt-cell-content">OA</div></div>
       <div className="tt-cell"><div className="tt-cell-content">OB</div></div>
@@ -140,7 +140,7 @@ const TimetableView = () => (
       
       <div className="tt-cell col-span-9 bg-green-100"><div className="tt-cell-content">YEAR 1/2 COOKING</div></div>
       
-      {/* --- TUESDAY --- */}
+      {/* --- TUESDAY [cite: 5] --- */}
       <div className="tt-day row-span-6">TUESDAY</div>
       <div className="tt-cell"><div className="tt-cell-content">56A</div></div>
       <div className="tt-cell"><div className="tt-cell-content">568</div></div>
@@ -187,7 +187,7 @@ const TimetableView = () => (
       <div className="tt-cell col-span-6"></div>
       <div className="tt-cell col-span-3 bg-yellow-100"><div className="tt-cell-content">FOUNDATION PMP</div></div>
       
-      {/* --- WEDNESDAY --- */}
+      {/* --- WEDNESDAY [cite: 6] --- */}
       <div className="tt-day row-span-6">WEDNESDAY</div>
       <div className="tt-cell col-span-3"><div className="tt-cell-content">YEAR 5/6</div></div>
       <div className="tt-cell col-span-2"><div className="tt-cell-content">OA</div></div>
@@ -199,8 +199,8 @@ const TimetableView = () => (
       <div className="tt-cell"><div className="tt-cell-content">1A</div></div>
       <div className="tt-cell"><div className="tt-cell-content">18</div></div>
       <div className="tt-cell"><div className="tt-cell-content">1C</div></div>
-      <div className="tt-cell col-span-2"><div className="tt-cell-content">TR 56C Jamey</div></div>
-      <div className="tt-cell col-span-2"><div className="tt-cell-content">TR 2C Bella</div></div>
+      <div className="tt-cell col-span-2"><div className="tt-cell-content">TR 56C Jamey (Grad)</div></div>
+      <div className="tt-cell col-span-2"><div className="tt-cell-content">TR 2C Bella (Grad)</div></div>
       <div className="tt-cell col-span-2"><div className="tt-cell-content">TR or APT</div></div>
 
       <div className="tt-cell"><div className="tt-cell-content">30</div></div>
@@ -208,7 +208,7 @@ const TimetableView = () => (
       <div className="tt-cell"><div className="tt-cell-content">20</div></div>
       <div className="tt-cell col-span-2"><div className="tt-cell-content">Mitch 1A TR</div></div>
       <div className="tt-cell col-span-2"><div className="tt-cell-content">Jake 3A TR</div></div>
-      <div className="tt-cell col-span-2"><div className="tt-cell-content">TR 56G Jason</div></div>
+      <div className="tt-cell col-span-2"><div className="tt-cell-content">TR 56G Jason (Grad)</div></div>
       
       <div className="tt-cell"><div className="tt-cell-content">56F</div></div>
       <div className="tt-cell"><div className="tt-cell-content">56G</div></div>
@@ -229,7 +229,7 @@ const TimetableView = () => (
       <div className="tt-cell col-span-2 bg-yellow-100"><div className="tt-cell-content">YEAR 1 PMP</div></div>
       <div className="tt-cell col-span-3 bg-purple-100"><div className="tt-cell-content">ASSEMBLY</div></div>
 
-      {/* --- THURSDAY --- */}
+      {/* --- THURSDAY [cite: 7] --- */}
       <div className="tt-day row-span-6">THURSDAY</div>
       <div className="tt-cell"><div className="tt-cell-content">4B</div></div>
       <div className="tt-cell"><div className="tt-cell-content">4C</div></div>
@@ -272,7 +272,7 @@ const TimetableView = () => (
       <div className="tt-cell col-span-7"></div>
       <div className="tt-cell col-span-2 bg-orange-100"><div className="tt-cell-content">Gr. 3 Sport</div></div>
 
-      {/* --- FRIDAY --- */}
+      {/* --- FRIDAY [cite: 8] --- */}
       <div className="tt-day row-span-7">FRIDAY</div>
       <div className="tt-cell"><div className="tt-cell-content">3C</div></div>
       <div className="tt-cell"><div className="tt-cell-content">38</div></div>
